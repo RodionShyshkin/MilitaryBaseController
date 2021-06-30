@@ -3,11 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		22F39DF2268B3F5700A19AB3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F39DF1268B3F5700A19AB3 /* main.cpp */; };
+		22F39E04268B435200A19AB3 /* Bus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F39E02268B435200A19AB3 /* Bus.cpp */; };
+		22F39E08268B448800A19AB3 /* Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F39E06268B448800A19AB3 /* Base.cpp */; };
+		22F39E0C268B5EB100A19AB3 /* BaseAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F39E0A268B5EB100A19AB3 /* BaseAPI.cpp */; };
+		22F39E10268C7F5600A19AB3 /* VehicleData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F39E0E268C7F5600A19AB3 /* VehicleData.cpp */; };
+		22F39E1E268C97B500A19AB3 /* Truck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F39E1C268C97B500A19AB3 /* Truck.cpp */; };
+		22F39E29268CCEC500A19AB3 /* ConsoleIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F39E27268CCEC500A19AB3 /* ConsoleIO.cpp */; };
+		22F39E34268CD41600A19AB3 /* SimpleCLI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F39E32268CD41600A19AB3 /* SimpleCLI.cpp */; };
+		22F39E3E268CDABD00A19AB3 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F39E3C268CDABD00A19AB3 /* Car.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,25 @@
 /* Begin PBXFileReference section */
 		22F39DEE268B3F5700A19AB3 /* oop_lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oop_lab; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F39DF1268B3F5700A19AB3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		22F39DFE268B407400A19AB3 /* Vehicle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vehicle.hpp; sourceTree = "<group>"; };
+		22F39E02268B435200A19AB3 /* Bus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bus.cpp; sourceTree = "<group>"; };
+		22F39E03268B435200A19AB3 /* Bus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bus.hpp; sourceTree = "<group>"; };
+		22F39E06268B448800A19AB3 /* Base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Base.cpp; sourceTree = "<group>"; };
+		22F39E07268B448800A19AB3 /* Base.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Base.hpp; sourceTree = "<group>"; };
+		22F39E0A268B5EB100A19AB3 /* BaseAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseAPI.cpp; sourceTree = "<group>"; };
+		22F39E0B268B5EB100A19AB3 /* BaseAPI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseAPI.hpp; sourceTree = "<group>"; };
+		22F39E0E268C7F5600A19AB3 /* VehicleData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VehicleData.cpp; sourceTree = "<group>"; };
+		22F39E0F268C7F5600A19AB3 /* VehicleData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VehicleData.hpp; sourceTree = "<group>"; };
+		22F39E1C268C97B500A19AB3 /* Truck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Truck.cpp; sourceTree = "<group>"; };
+		22F39E1D268C97B500A19AB3 /* Truck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Truck.hpp; sourceTree = "<group>"; };
+		22F39E22268CCE9000A19AB3 /* IOInterface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOInterface.hpp; sourceTree = "<group>"; };
+		22F39E27268CCEC500A19AB3 /* ConsoleIO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConsoleIO.cpp; sourceTree = "<group>"; };
+		22F39E28268CCEC500A19AB3 /* ConsoleIO.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConsoleIO.hpp; sourceTree = "<group>"; };
+		22F39E2E268CD3EA00A19AB3 /* CLI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CLI.hpp; sourceTree = "<group>"; };
+		22F39E32268CD41600A19AB3 /* SimpleCLI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleCLI.cpp; sourceTree = "<group>"; };
+		22F39E33268CD41600A19AB3 /* SimpleCLI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimpleCLI.hpp; sourceTree = "<group>"; };
+		22F39E3C268CDABD00A19AB3 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		22F39E3D268CDABD00A19AB3 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +84,76 @@
 		22F39DF0268B3F5700A19AB3 /* oop_lab */ = {
 			isa = PBXGroup;
 			children = (
+				22F39E37268CD42700A19AB3 /* core */,
+				22F39E38268CD43900A19AB3 /* cli */,
 				22F39DF1268B3F5700A19AB3 /* main.cpp */,
 			);
 			path = oop_lab;
+			sourceTree = "<group>";
+		};
+		22F39E15268C815000A19AB3 /* vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				22F39E0E268C7F5600A19AB3 /* VehicleData.cpp */,
+				22F39E0F268C7F5600A19AB3 /* VehicleData.hpp */,
+				22F39DFE268B407400A19AB3 /* Vehicle.hpp */,
+				22F39E19268C81EE00A19AB3 /* vehicles */,
+			);
+			path = vehicle;
+			sourceTree = "<group>";
+		};
+		22F39E18268C81DA00A19AB3 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				22F39E06268B448800A19AB3 /* Base.cpp */,
+				22F39E07268B448800A19AB3 /* Base.hpp */,
+				22F39E0A268B5EB100A19AB3 /* BaseAPI.cpp */,
+				22F39E0B268B5EB100A19AB3 /* BaseAPI.hpp */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		22F39E19268C81EE00A19AB3 /* vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				22F39E02268B435200A19AB3 /* Bus.cpp */,
+				22F39E03268B435200A19AB3 /* Bus.hpp */,
+				22F39E1C268C97B500A19AB3 /* Truck.cpp */,
+				22F39E1D268C97B500A19AB3 /* Truck.hpp */,
+				22F39E3C268CDABD00A19AB3 /* Car.cpp */,
+				22F39E3D268CDABD00A19AB3 /* Car.hpp */,
+			);
+			path = vehicles;
+			sourceTree = "<group>";
+		};
+		22F39E20268CCE8400A19AB3 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				22F39E22268CCE9000A19AB3 /* IOInterface.hpp */,
+				22F39E27268CCEC500A19AB3 /* ConsoleIO.cpp */,
+				22F39E28268CCEC500A19AB3 /* ConsoleIO.hpp */,
+			);
+			path = io;
+			sourceTree = "<group>";
+		};
+		22F39E37268CD42700A19AB3 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				22F39E15268C815000A19AB3 /* vehicle */,
+				22F39E18268C81DA00A19AB3 /* base */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		22F39E38268CD43900A19AB3 /* cli */ = {
+			isa = PBXGroup;
+			children = (
+				22F39E20268CCE8400A19AB3 /* io */,
+				22F39E2E268CD3EA00A19AB3 /* CLI.hpp */,
+				22F39E32268CD41600A19AB3 /* SimpleCLI.cpp */,
+				22F39E33268CD41600A19AB3 /* SimpleCLI.hpp */,
+			);
+			path = cli;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +190,7 @@
 				};
 			};
 			buildConfigurationList = 22F39DE9268B3F5700A19AB3 /* Build configuration list for PBXProject "oop_lab" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -118,6 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F39E34268CD41600A19AB3 /* SimpleCLI.cpp in Sources */,
+				22F39E08268B448800A19AB3 /* Base.cpp in Sources */,
+				22F39E0C268B5EB100A19AB3 /* BaseAPI.cpp in Sources */,
+				22F39E04268B435200A19AB3 /* Bus.cpp in Sources */,
+				22F39E1E268C97B500A19AB3 /* Truck.cpp in Sources */,
+				22F39E29268CCEC500A19AB3 /* ConsoleIO.cpp in Sources */,
+				22F39E3E268CDABD00A19AB3 /* Car.cpp in Sources */,
+				22F39E10268C7F5600A19AB3 /* VehicleData.cpp in Sources */,
 				22F39DF2268B3F5700A19AB3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +233,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -190,7 +292,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
